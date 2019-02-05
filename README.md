@@ -33,7 +33,7 @@ export PATH="PTAB:$PATH"
 where PTAB should represent the path to the bin folder of your anaconda installation (e.g., /Users/guest/anaconda3/bin)
 
 ### Built With
-* [Anaconda distribution] (https://www.anaconda.com/distribution/) - The World's Most Popular Python/R Data Science Platform
+* [Anaconda distribution](https://www.anaconda.com/distribution/) - The World's Most Popular Python/R Data Science Platform
 * [Anaconda-navigator](https://anaconda.org/anaconda/anaconda-navigator) - Desktop graphical user interface
 * [Spyder IDE](https://www.spyder-ide.org) - The Scientific Python Development Environment
 * [Python 3.7.0]
@@ -52,7 +52,7 @@ A single version of this function will be available, and it should exhibit syste
 
 * **Enrique Pravia Sarabia** - 
 [eps22](https://github.com/eps22)
-[Enrique Pravia-Sarabia] (https://es.linkedin.com/in/enrique-pravia-sarabia)
+[Enrique Pravia-Sarabia](https://es.linkedin.com/in/enrique-pravia-sarabia)
 
 Meet the GMAR complete team at www.um.es/gmar.
 
