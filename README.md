@@ -69,4 +69,4 @@ See the [LICENSE](LICENSE) file for details
 
 ### Acknowledgments
 
-* NCAR
+* NCAR python library wrf-python (https://github.com/NCAR/wrf-python)
