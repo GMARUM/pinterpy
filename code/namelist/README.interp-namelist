@@ -23,4 +23,3 @@ A vector with the pressure levels to interpolate the fields to. If None option i
  
 --> extrapolate=False
 Whether the field should be extrapolated or not. This prevents the possible missing values introduced by the interpolation in low levels when the fields are not available. Please be careful with the interpretation of the rare results that you may find if this option is misused with certain fields. 
-
