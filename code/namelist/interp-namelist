@@ -1,5 +1,5 @@
 ncinputfile='input/wrfout_d01-merged.nc'
-getfield=['slp','theta_e]
+getfield=['slp','theta_e']
 ncoutputfile=['outputfile-slp.nc', 'outputfile-thetae.nc']
 fieldunits=['hPa', 'degC']
 interpolate=[False,True]
