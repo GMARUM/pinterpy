@@ -23,3 +23,6 @@ A vector with the pressure levels to interpolate the fields to. If None option i
  
 --> extrapolate=False
 Whether the field should be extrapolated or not. This prevents the possible missing values introduced by the interpolation in low levels when the fields are not available. Please be careful with the interpretation of the rare results that you may find if this option is misused with certain fields. 
+
+
+Important note: If a single field is requested, do not use the brackets '[]' to give an array of one element. This function has been programmed to receive a string in 'getfield', 'ncoutputfile' and 'fieldunits' when is called for the analysis of one field alone.
