@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-EPS. 01 Feb 2019.
+Created by EPS on 01 Feb 2019.
+Last edit: 13 March 2019.
 """
 def interpy():
     
@@ -307,11 +308,7 @@ def interpy():
                     
     ncfile = Dataset(ncinputfile)
     variables=[aa for aa in ncfile.variables]
-    print('Imported ', len(variables)-3, 'variables')
-    #yn = input('Do you want to see them all? [y/n] >>> ')
-    #if yn == 'y':
-    #   print(ncfile.variables)     
-
+    print('Imported ', len(variables)-3, 'variables')  
         
     dimsnames = [aa for aa in ncfile.dimensions]
     
@@ -333,9 +330,6 @@ def interpy():
             else:
                fieldtype=fieldtypes[corrfields.index(interpfield)]
 
-            
-             
-            
             print('Calculating ', interpfield, ' ...')
             if fieldunits == None:
                interpvar = getvar(ncfile, interpfield, timeidx=None)
