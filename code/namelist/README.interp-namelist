@@ -24,5 +24,6 @@ A vector with the pressure levels to interpolate the fields to. If None option i
 --> extrapolate=False
 Whether the field should be extrapolated or not. This prevents the possible missing values introduced by the interpolation in low levels when the fields are not available. Please be careful with the interpretation of the rare results that you may find if this option is misused with certain fields. 
 
+Please note that missing values are computed as NaN in this python script. If you are planning to make calculations with an interpolated file along with a direct WRF output, use CDO command 'setmissval' to make the two files consistent. 
 
 Important note: If a single field is requested, do not use the brackets '[]' to give an array of one element. This function has been programmed to receive a string in 'getfield', 'ncoutputfile' and 'fieldunits' when is called for the analysis of one field alone.
